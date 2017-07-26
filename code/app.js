@@ -50,6 +50,9 @@ app.use(cors({
   origin: ['http://localhost:4200']
 }));
 
+
+
+// ROUTES ------------------------------------------------------------
 const index = require('./routes/index');
 app.use('/', index);
 
@@ -59,23 +62,18 @@ app.use('/', products);
 const auth = require('./routes/auth-routes');
 app.use('/', auth);
 
+// END ROUTES --------------------------------------------------------
+
+app.use((req, res, next) => {
+  res.sendFile(__dirname + "/public/index.html");
+});
+
+
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
   const err = new Error('Not Found');
   err.status = 404;
   next(err);
-});
-
-
-// ROUTES ------------------------------------------------------------
-
-const myAuthRoutes = require('./routes/auth-routes');
-app.use('/', myAuthRoutes);
-
-// END ROUTES --------------------------------------------------------
-
-app.use((req, res, next) => {
-  res.sendFile(__dirname + "/public/index.html");
 });
 
 // error handler
