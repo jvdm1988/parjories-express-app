@@ -20,3 +20,16 @@ const UserArray = [{
 
   },
 ];
+
+AdminUser.create(
+  UserArray, //1st arg = array of product info objects
+  (err, AdminUserResults) => { //2nd arg = callback!
+    if (err) {
+      console.log("Oh oh, try again!");
+      return;
+    }
+    AdminUserResults.forEach((oneAdmin) => {
+      console.log("New Adin: " + oneAdmin.fullName);
+    });
+  }
+);
