@@ -15,49 +15,49 @@ const BakeryArray = [{
     photoUrl: "/images/macarons/banana.jpg",
     group: "Macarons",
     name: "Banana",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/bdaycake.jpg",
     group: "Macarons",
     name: "BirthdayCake",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/champagne.jpg",
     group: "Macarons",
     name: "Champagne",
-    price: 2
+    price: 3
   },
   {
     photoUrl: "/images/macarons/choco.jpg",
     group: "Macarons",
     name: "Chocolate",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/cinnamon.jpg",
     group: "Macarons",
     name: "cinnamon",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/cookie.jpg",
     group: "Macarons",
     name: "Cookie",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/cosmopolitan.jpg",
     group: "Macarons",
     name: "Cosmopolitan",
-    price: 2
+    price: 3
   },
   {
     photoUrl: "/images/macarons/cotton.jpg",
     group: "Macarons",
     name: "Cotton",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/eggnog.jpg",
@@ -69,103 +69,103 @@ const BakeryArray = [{
     photoUrl: "/images/macarons/fruity.jpg",
     group: "Macarons",
     name: "Fruity",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/hazelnut.jpg",
     group: "Macarons",
     name: "Hazelnut",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/keylime.jpg",
     group: "Macarons",
     name: "Keylime",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/margarita.jpg",
     group: "Macarons",
     name: "Margarita",
-    price: 2
+    price: 3
   },
   {
     photoUrl: "/images/macarons/orange.jpg",
     group: "Macarons",
     name: "Orange",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/peachbellini.jpg",
     group: "Macarons",
     name: "Peach Bellini",
-    price: 2
+    price: 3
   },
   {
     photoUrl: "/images/macarons/pecan.jpg",
     group: "Macarons",
     name: "Pecan",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/pumpkin.jpg",
     group: "Macarons",
     name: "Pumpkin",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/redvelvet.jpg",
     group: "Macarons",
     name: "Red Velvet",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/sangria.jpg",
     group: "Macarons",
     name: "Sangria",
-    price: 2
+    price: 3
   },
   {
     photoUrl: "/images/macarons/smores.jpg",
     group: "Macarons",
     name: "S'mores",
-    price: 2
+    price: 3
   },
   {
     photoUrl: "/images/macarons/strawberry.jpg",
     group: "Macarons",
     name: "Strawberry",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/caramelapple.jpg",
     group: "Macarons",
     name: "Caramel Apple",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/carrotcake.jpg",
     group: "Macarons",
     name: "Carrot Cake",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/chococheesecake.jpg",
     group: "Macarons",
     name: "Chocolate Cheesecake",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/chococherry.jpg",
     group: "Macarons",
     name: "ChocoCherry",
-    price: 1
+    price: 2
   },
   {
     photoUrl: "/images/macarons/chocostrawberry.jpg",
     group: "Macarons",
     name: "Chocolate covered Strawberry",
-    price: 1
+    price: 2
   },
 
   // CUPCAKES -----------------------------------------------------
@@ -251,39 +251,64 @@ const BakeryArray = [{
 
   // PIES AND CAKES ----------------------------------------------
   {
-    photoUrl: "",
+    photoUrl: "/images/pies-cakes/pie4.jpg",
     group: "Pies & Cakes",
-    name: "",
-    description: "",
-    price: ""
+    name: "Key Lime Pie",
+    price: 27
   },
   {
-    photoUrl: "",
+    photoUrl: "/images/pies-cakes/pie5.jpg",
     group: "Pies & Cakes",
-    name: "",
-    description: "",
-    price: ""
+    name: "Apple Pie",
+    price: 22
   },
   {
-    photoUrl: "",
+    photoUrl: "/images/pies-cakes/pie2.jpg",
     group: "Pies & Cakes",
-    name: "",
-    description: "",
-    price: ""
+    name: "Fruit Cake",
+    price: 30
   },
   {
-    photoUrl: "",
+    photoUrl: "/images/pies-cakes/cake3.jpg",
     group: "Pies & Cakes",
-    name: "",
-    description: "",
-    price: "",
+    name: "Custom Cake",
+    price: 35,
   },
   {
-    photoUrl: "",
+    photoUrl: "/images/pies-cakes/cake9.jpg",
     group: "Pies & Cakes",
-    name: "",
-    description: "",
-    price: ""
+    name: "Double Layer",
+    price: 25
+  },
+  {
+    photoUrl: "/images/pies-cakes/cake10.jpeg",
+    group: "Pies & Cakes",
+    name: "Nutty Cake",
+    price: 45
+  },
+  {
+    photoUrl: "/images/pies-cakes/cake11.jpg",
+    group: "Pies & Cakes",
+    name: "Anniversary Cake",
+    price: 25
+  },
+  {
+    photoUrl: "/images/pies-cakes/cake8.jpg",
+    group: "Pies & Cakes",
+    name: "Multi Layer",
+    price: 85
+  },
+  {
+    photoUrl: "/images/pies-cakes/cake1.jpg",
+    group: "Pies & Cakes",
+    name: "Choco Cake",
+    price: 23
+  },
+  {
+    photoUrl: "/images/pies-cakes/cake4.jpg",
+    group: "Pies & Cakes",
+    name: "Rose Cake",
+    price: 35
   },
 ];
 
